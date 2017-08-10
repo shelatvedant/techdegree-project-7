@@ -10,12 +10,10 @@ body{
 
 .wrapper{
   background-color: #E0E0E0;
-  width:100%;
 }
 
-.mejs__player{
+.videocontent{
   width: 100%;
-  height: 100%;
 }
 
 p{
