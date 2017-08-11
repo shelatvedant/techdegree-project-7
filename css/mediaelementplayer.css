@@ -158,9 +158,9 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
     width: 80px;
 }
 
-.mejs__overlay:hover > .mejs__overlay-button {
+/*.mejs__overlay:hover > .mejs__overlay-button {
     background-position: -80px -39px;
-}
+}*/
 
 .mejs__overlay-loading {
     height: 80px;
@@ -223,7 +223,7 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
     height: 40px;
     line-height: 10px;
     margin: 0;
-    width: 32px;
+    width: 50px;
 }
 
 .mejs__button > button {

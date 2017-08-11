@@ -6,6 +6,26 @@
 
 body{
     background-color: #D8D8D8;
+    margin: 0;
+}
+
+h2{
+  font-family:'Indie Flower', cursive;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0;
+}
+
+.highlight{
+  color:red;
+}
+
+.heading{
+  padding-top: 20px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid black;
 }
 
 .wrapper{
@@ -24,10 +44,41 @@ p{
 	line-height: 1.5;
 }
 
+/* Media Element*/
+
+.mejs__container {
+  background: #2b3040;
+}
+
+.mejs__time {
+  color: #808080;
+}
+
+.mejs__time-current{
+  background: #ff3333;
+}
+
+.mejs__time-loaded{
+  background: #ff6347;
+}
+
+.mejs__time-slider{
+  background: #ff6347;
+}
+
+.mejs__container .mejs__controls {
+  background:  #000;
+}
+
 @media screen and (min-width: 768px){
   .wrapper{
     width:70%;
     margin: 2em auto;
+  }
+
+  .videocontent{
+    width:80%;
+    margin:auto;
   }
 
   p{
