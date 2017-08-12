@@ -19,3 +19,12 @@ video.addEventListener('timeupdate', () => {
     }
   }
 });
+
+/* On clicking the transcript, video time changes*/
+
+transcriptDiv.addEventListener('click', (e) => {
+  const transcriptTime = e.target.getAttribute('data-start');
+  if(transcriptTime){
+    video.setCurrentTime(transcriptTime);
+  }
+});
